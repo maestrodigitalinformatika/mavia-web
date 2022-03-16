@@ -1,0 +1,106 @@
+.nicesidebar {
+  margin-top   : 30px;
+  margin-left  : 30px;
+  border-radius: 20px;
+  width        : 300px;
+  height       : 90vh;
+  overflow     : hidden;
+  position     : fixed;
+  top          : 0;
+  left         : 0;
+  z-index      : 9;
+  box-shadow   : 0px 6px 60px rgba(22, 28, 51, 0.06);
+}
+
+.nicesidebar .content {
+  padding   : 30px;
+  overflow-y: auto;
+  height    : 100%;
+}
+
+.nicesidebar .content img {
+  height: 70px;
+  width : 70px;
+}
+
+.nicesidebar .info h3 {
+  font-size  : 18px;
+  font-weight: var(--extraBold);
+}
+
+.nicesidebar .info p {
+  font-size: 14px;
+}
+
+.nicesidebar .menus .item {
+  padding      : 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.nicesidebar .menus .item p {
+  margin   : 0;
+  font-size: 16px;
+  color    : var(--midnight-100);
+}
+
+.nicesidebar .menus .item a {
+  color: var(--midnight-200);
+}
+
+.nicesidebar .menus .item a:hover {
+  color: var(--midnight-500);
+}
+
+.nicesidebar .menus .item.active {
+  background-color: var(--midnight-50);
+  color           : var(--midnight-500);
+}
+
+.nicesidebar .menus .item.active a {
+  color: var(--midnight-500);
+}
+
+.section-dashboard {
+  margin-left: 350px;
+  margin-top : 30px;
+  margin-bottom : 30px;
+}
+
+.section-dashboard .header {
+  font-weight: var(--extraBold);
+  font-size: 32px;
+}
+
+.section-dashboard .subtitle {
+  font-size: 16px;
+}
+
+.section-dashboard .card-wrapper {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow   : 0px 6px 60px rgba(22, 28, 51, 0.06);
+  margin-right: 30px;
+}
+
+.section-dashboard .card-item {
+  position: relative;
+}
+
+.section-dashboard .icon {
+  font-size    : 60px;
+  margin-bottom: 30px;
+  margin-left  : 30px;
+}
+
+.section-dashboard .icon:after {
+  content         : "";
+  width           : 75px;
+  height          : 75px;
+  background-color: var(--hit-pink-500);
+  border-radius   : 100%;
+  position        : absolute;
+  left            : 0px;
+  top             : 25px;
+  z-index         : -1;
+}
